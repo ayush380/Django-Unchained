@@ -1,0 +1,9 @@
+{% extends "personal/header.html" %}
+
+{% block content %}
+{%include "personal/includes/xyz.html"%}
+	{%for c in lol%}
+	<p>{{c}}</p>
+	{%endfor%}
+
+{% endblock %}	
